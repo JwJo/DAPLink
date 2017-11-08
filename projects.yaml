@@ -301,6 +301,10 @@ projects:
         - *module_if
         - *module_hic_lpc11u35
         - records/board/mbed_cloud_connect.yaml
+    lpc11u35_bl600_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/bl600.yaml
     sam3u2c_ncs36510rf_if:
         - *module_if
         - *module_hic_sam3u2c
